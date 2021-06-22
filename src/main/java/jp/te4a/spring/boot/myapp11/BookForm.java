@@ -15,7 +15,7 @@ public class BookForm {
    @Size(min = 3)
    @TestValid(param = "abc")
   private String title;
-  @Size(min =3, max = 20)
+   @WritterValid(ok = "東北タロウ")
   private String writter;
   private String publisher;
   @Min(0)
